@@ -2,7 +2,7 @@
 
 /**
  * printf_string - print a string.
- * @val: argumen t.
+ * @val: argument t.
  * Return: the length of the string.
  */
 
