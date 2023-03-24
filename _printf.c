@@ -11,8 +11,8 @@ int _printf(const char * const format, ...)
 		{"%s", printf_string},
         {"%c", printf_char},
 		{"%%", printf_37}
-		// {"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_srev},
-		// {"%S", printf_exclusive_string}, {"%p", printf_pointer}
+		{"%i", printf_int}, 
+        {"%d", printf_dec}
 	};
 
     va_list args;
